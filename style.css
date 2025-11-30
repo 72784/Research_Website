@@ -1,9 +1,19 @@
-/* ----------------------- GLOBAL ----------------------- */
+/* ---------------------------------------------------- */
+/*                     GLOBAL                           */
+/* ---------------------------------------------------- */
+
 body {
     margin: 0;
     font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-    background: #f8f9fc;
-    color: #2e3550;
+    background: #ffffff;
+    color: #0f172a;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
 }
 
 .container {
@@ -12,7 +22,10 @@ body {
     margin: auto;
 }
 
-/* ----------------------- NAVBAR ----------------------- */
+/* ---------------------------------------------------- */
+/*                     NAVBAR                           */
+/* ---------------------------------------------------- */
+
 .navbar {
     background: white;
     border-bottom: 1px solid #e5e7f2;
@@ -28,26 +41,30 @@ body {
 .logo {
     font-size: 20px;
     font-weight: 700;
-    color: #1a237e;
-    margin: 0;
+    color: #1e40af;
 }
 
 .nav-links a {
     margin-left: 22px;
     text-decoration: none;
-    color: #3a4374;
-    font-weight: 500;
+    color: #1e40af;
+    font-weight: 800;
+    transition: 0.15s ease;
 }
 
 .nav-links a.active,
 .nav-links a:hover {
-    color: #304ffe;
+    color: #0A4B78;
+    border-bottom: 2px solid #0A4B78;
 }
 
-/* ----------------------- HERO ----------------------- */
+/* ---------------------------------------------------- */
+/*                     HERO                              */
+/* ---------------------------------------------------- */
+
 .hero-modern {
-    padding: 70px 0;
-    background: linear-gradient(135deg, #e0e8ff 0%, #eef2ff 100%);
+    padding: 80px 0 60px;
+    background: #f8fafc;
 }
 
 .hero-inner {
@@ -61,70 +78,82 @@ body {
 }
 
 .hero-text h2 {
-    font-size: 34px;
+    font-size: 38px;
     font-weight: 700;
-    color: #1e2a78;
+    color: #1e40af;
     margin-bottom: 15px;
 }
 
 .hero-text p {
     font-size: 18px;
     line-height: 1.6;
-    color: #374785;
+    color: #475569;
     margin-bottom: 25px;
 }
 
 .btn-primary {
-    background: #304ffe;
-    color: #fff;
-    padding: 12px 26px;
-    border-radius: 6px;
+    background: #1e40af;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
-    box-shadow: 0 3px 8px rgba(48, 79, 254, 0.3);
+    box-shadow: 0 3px 8px rgba(30, 58, 138, 0.25);
+    transition: 0.15s ease;
 }
 
 .btn-primary:hover {
-    background: #1a2ad9;
+    background: #0A4B78;
+    transform: translateY(-2px);
 }
 
-/* ----------------------- HERO PHOTO ----------------------- */
-.hero-photo .photo-box {
-    width: 160px;
-    height: 160px;
-    background: #d8e0ff;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #3949ab;
-    font-size: 18px;
-    border: 1px solid #b9c5ff;
+/* HERO PHOTO */
+
+.photo-box {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #ccd6ff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    background: white;
 }
 
-/* ----------------------- SECTIONS ----------------------- */
+.prof-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ---------------------------------------------------- */
+/*                     SECTIONS                          */
+/* ---------------------------------------------------- */
+
 .section {
     padding: 60px 0;
 }
 
 .section-title {
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 700;
-    color: #1e2a78;
+    color: #1e40af;
     margin-bottom: 15px;
 }
 
 .section-text {
     font-size: 17px;
-    color: #34406a;
+    color: #374151;
     line-height: 1.7;
 }
 
 .light-bg {
-    background: #f2f5ff;
+    background: #f8fafc;
 }
 
-/* ----------------- FEATURES GRID ----------------- */
+/* ---------------------------------------------------- */
+/*               RESEARCH FOCUS CARDS                   */
+/* ---------------------------------------------------- */
+
 .features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -132,49 +161,52 @@ body {
 }
 
 .feature-card {
-    background: white;
+    background: #ffffff;
     padding: 25px;
-    border-radius: 8px;
+    border-radius: 10px;
     border: 1px solid #dfe3f4;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
 .feature-card h3 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    color: #1a237e;
+    margin: 0 0 10px;
+    color: #1e40af;
     font-weight: 600;
 }
 
-/* ----------------------- FOOTER ----------------------- */
-.footer {
-    background: #e7e9f8;
-    padding: 18px 0;
-    text-align: center;
-    color: #1a237e;
-    border-top: 1px solid #cdd2ef;
-}
-/* --------- PAGE TITLE BAR --------- */
+/* ---------------------------------------------------- */
+/*                     PAGE TITLE BAR                    */
+/* ---------------------------------------------------- */
+
 .page-title-bar {
-    background: #eef2ff;
-    padding: 40px 0;
-    border-bottom: 1px solid #dfe3f4;
-    margin-bottom: 30px;
+    background: #f8fafc;
+    padding: 20px 0;
+    border-bottom: 1px solid #e2e8f0;
+    margin-bottom: 10px;
 }
 
 .page-title-bar h2 {
     font-size: 30px;
     font-weight: 700;
-    color: #1a237e;
+    color: #1e40af;
     margin-bottom: 5px;
 }
 
 .page-title-bar p {
-    color: #3f4a78;
+    color: #475569;
     font-size: 17px;
 }
 
-/* --------- PUBLICATION CARD --------- */
+/* ---------------------------------------------------- */
+/*                     PUBLICATIONS                      */
+/* ---------------------------------------------------- */
+
 .pub-list {
     display: flex;
     flex-direction: column;
@@ -184,29 +216,29 @@ body {
 .pub-card {
     background: white;
     padding: 25px 30px;
-    border-radius: 8px;
-    border: 1px solid #e0e5f5;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .pub-card h3 {
-    margin: 0 0 8px;
     font-size: 22px;
-    color: #1e2a78;
+    color: #1e40af;
+    margin-bottom: 8px;
 }
 
 .pub-meta {
     margin-bottom: 15px;
-    color: #3a4374;
+    color: #475569;
     font-size: 15px;
 }
 
 .pub-meta strong {
-    color: #1a237e;
+    color: #1e3a8a;
 }
 
 .pub-abstract {
-    color: #4a4f6c;
+    color: #4b5563;
     line-height: 1.6;
     margin-bottom: 18px;
 }
@@ -214,207 +246,22 @@ body {
 .pub-link {
     display: inline-block;
     padding: 10px 16px;
-    background: #304ffe;
+    background: #1e40af;
     color: white;
     border-radius: 6px;
-    text-decoration: none;
     font-weight: 600;
     font-size: 14px;
+    text-decoration: none;
 }
 
 .pub-link:hover {
-    background: #2034d8;
+    background: #1e3a8a;
 }
 
-/* --------- TEAM GRID --------- */
-.team-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 30px;
-}
+/* ---------------------------------------------------- */
+/*                     TEAM PAGE                         */
+/* ---------------------------------------------------- */
 
-.team-card {
-    background: white;
-    padding: 25px;
-    text-align: center;
-    border-radius: 12px;
-    border: 1px solid #dde3f7;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.06);
-}
-
-.team-card h3 {
-    margin-top: 15px;
-    margin-bottom: 5px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #1a237e;
-}
-
-.team-card .role {
-    color: #44527a;
-    font-size: 15px;
-    font-weight: 500;
-}
-
-/* Photo placeholder box */
-.team-photo {
-    width: 120px;
-    height: 120px;
-    background: #dbe2ff;
-    border-radius: 50%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #b8c4ff;
-    font-size: 15px;
-    color: #3749a6;
-}
-
-/* --------- CONTACT GRID --------- */
-.contact-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 25px;
-}
-
-.contact-card {
-    background: white;
-    padding: 25px;
-    border-radius: 10px;
-    border: 1px solid #dce1f4;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
-.contact-card h3 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    color: #1a237e;
-    font-weight: 700;
-}
-
-.contact-card p {
-    margin: 5px 0;
-    color: #3f4a78;
-}
-
-.contact-link {
-    color: #304ffe;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.contact-link:hover {
-    text-decoration: underline;
-}
-
-/* Fix photo inside hero container */
-.hero-photo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.photo-box {
-    width: 180px;
-    height: 180px;
-    border-radius: 10px;
-    overflow: hidden;
-    border: 2px solid #ccd6ff;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
-    background: white;
-}
-
-/* Make image fit perfectly */
-.prof-photo {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;   /* crop proportionally */
-    object-position: center;
-}
-
-/* TEAM GRID LAYOUT */
-.team-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-    justify-items: center;
-}
-
-/* Tablets */
-@media (max-width: 1000px) {
-    .team-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* Phones */
-@media (max-width: 600px) {
-    .team-grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-
-/* PHOTO WRAPPER */
-.team-photo {
-    width: 140px;
-    height: 140px;
-    margin: 0 auto 15px;
-    border-radius: 50%;
-    overflow: hidden;
-    background: #f0f0f0;   /* Soft gray */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-/* IMAGE INSIDE PHOTO */
-.team-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-/* PLACEHOLDER TEXT */
-.placeholder {
-    font-size: 1.4rem;
-    color: #999;
-    font-weight: 600;
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-footer {
-    margin-top: auto;   /* pushes footer to the bottom */
-}
-
-.social-links {
-    margin-top: 10px;
-}
-
-.linkedin-icon img {
-    width: 28px;
-    height: 28px;
-    transition: transform 0.2s ease;
-}
-
-.linkedin-icon img:hover {
-    transform: scale(1.15);
-}
-
-/* --- Team Grid Layout --- */
 .team-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -422,20 +269,21 @@ footer {
     justify-items: center;
 }
 
-/* --- Team Card --- */
 .team-card {
-    background: #ffffff;
+    background: white;
     border-radius: 18px;
     padding: 28px 20px;
-    width: 100%;
     max-width: 260px;
     text-align: center;
-    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    transition: 0.25s ease;
 }
 
+.team-card:hover {
+    transform: translateY(-4px);
+}
 
-/* --- Circular Photo --- */
 .team-photo {
     width: 150px;
     height: 150px;
@@ -443,10 +291,10 @@ footer {
     border-radius: 50%;
     overflow: hidden;
     background: #f5f5f5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 4px solid #e6e9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .team-photo img {
@@ -455,77 +303,121 @@ footer {
     object-fit: cover;
 }
 
-/* --- Placeholder Initials --- */
-.placeholder {
-    font-size: 2rem;
-    color: #777;
-    font-weight: 600;
+.name-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
 }
 
-/* --- Name & Role --- */
-.team-card h3 {
+.name-row h3 {
     font-size: 1.1rem;
-    margin-bottom: 6px;
-    font-weight: 600;
-    color: #1a1a1a;
+    margin: 0;
 }
 
 .team-card .role {
     font-size: 0.95rem;
     color: #556;
-    margin-bottom: 14px;
+    margin-top: 6px;
 }
 
-/* --- Social Icons --- */
-.social-links {
-    margin-top: 8px;
+.linkedin-inline img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.8;
+    transition: 0.2s ease;
 }
 
-.linkedin-icon img {
-    width: 26px;
-    height: 26px;
-    transition: transform 0.2s ease, opacity 0.2s ease;
+.linkedin-inline img:hover {
+    opacity: 1;
+    transform: scale(1.15);
 }
 
+/* RESPONSIVE */
 
-/* --- Responsive Fix for Tablets --- */
 @media (max-width: 1024px) {
     .team-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* --- Mobile Layout --- */
 @media (max-width: 650px) {
     .team-grid {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
+/* ---------------------------------------------------- */
+/*                       FOOTER                          */
+/* ---------------------------------------------------- */
 
-/* Name + LinkedIn alignment */
-.name-row {
+footer {
+    margin-top: auto;
+    background: #f8fafc;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #e2e8f0;
+    color: #475569;
+}
+
+
+
+/* ---------------------- CONTACT PAGE ---------------------- */
+
+.contact-wrapper {
     display: flex;
-    align-items: center;
     justify-content: center;
-    gap: 6px;
-    margin-bottom: 6px;
 }
 
-/* Reduce space under name */
-.name-row h3 {
-    margin: 0;
+.contact-card-large {
+    background: #ffffff;
+    padding: 40px 45px;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    max-width: 900px;
+    width: 100%;
 }
 
-/* Inline LinkedIn icon */
-.linkedin-inline img {
-    width: 30px;
-    height: 30px;
-    opacity: 0.8;
-    transition: transform 0.2s ease, opacity 0.2s ease;
+.contact-card-large h3 {
+    font-size: 26px;
+    color: #1e40af;
+    margin-bottom: 25px;
+    font-weight: 700;
 }
 
-.linkedin-inline img:hover {
-    transform: scale(1.15);
-    opacity: 1;
+.contact-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.contact-col h4 {
+    font-size: 18px;
+    color: #1e3a8a;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.contact-col p {
+    margin: 6px 0 20px;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.contact-link {
+    color: #1e40af;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Layout */
+@media (max-width: 800px) {
+    .contact-columns {
+        grid-template-columns: 1fr;
+    }
 }
