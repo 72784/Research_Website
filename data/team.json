@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Dr. Mohammed E. Eltayeb",
+        "role": "Professor & Principal Investigator",
+        "photo": "images/prof_mohammed_eltayeb.jpeg",
+        "linkedin": "https://www.linkedin.com/in/mohammed-e-eltayeb-63559434/"
+    },
+    {
+        "name": "Parth Ashokbhai Shiroya",
+        "role": "ML Research Volunteer",
+        "photo": "images/parth_shiroya.jpeg",
+        "linkedin": "https://www.linkedin.com/in/parth-shiroya-9586931b4/"
+    },
+    {
+        "name": "Krishna Aindrila Kar",
+        "role": "Graduate Student",
+        "photo": "images/krishna_kar.jpeg",
+        "linkedin": "https://www.linkedin.com/in/krishna-aindrila-kar-82031b1ab/"
+    },
+    {
+        "name": "Amod Ashtekar",
+        "role": "Graduate Student",
+        "photo": "images/amod_ashtekar.jpeg",
+        "linkedin": "https://www.linkedin.com/in/amod-ashtekar/"
+    },
+    {
+        "name": "Swarnagowri Shashidhar",
+        "role": "Research Volunteer",
+        "photo": "images/swarnagowri.jpeg",
+        "linkedin": "https://www.linkedin.com/in/swarna-gowri-s/"
+    }
+    
+]

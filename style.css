@@ -1,0 +1,531 @@
+/* ----------------------- GLOBAL ----------------------- */
+body {
+    margin: 0;
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    background: #f8f9fc;
+    color: #2e3550;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ----------------------- NAVBAR ----------------------- */
+.navbar {
+    background: white;
+    border-bottom: 1px solid #e5e7f2;
+    padding: 18px 0;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a237e;
+    margin: 0;
+}
+
+.nav-links a {
+    margin-left: 22px;
+    text-decoration: none;
+    color: #3a4374;
+    font-weight: 500;
+}
+
+.nav-links a.active,
+.nav-links a:hover {
+    color: #304ffe;
+}
+
+/* ----------------------- HERO ----------------------- */
+.hero-modern {
+    padding: 70px 0;
+    background: linear-gradient(135deg, #e0e8ff 0%, #eef2ff 100%);
+}
+
+.hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text {
+    width: 60%;
+}
+
+.hero-text h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #1e2a78;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #374785;
+    margin-bottom: 25px;
+}
+
+.btn-primary {
+    background: #304ffe;
+    color: #fff;
+    padding: 12px 26px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 3px 8px rgba(48, 79, 254, 0.3);
+}
+
+.btn-primary:hover {
+    background: #1a2ad9;
+}
+
+/* ----------------------- HERO PHOTO ----------------------- */
+.hero-photo .photo-box {
+    width: 160px;
+    height: 160px;
+    background: #d8e0ff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3949ab;
+    font-size: 18px;
+    border: 1px solid #b9c5ff;
+}
+
+/* ----------------------- SECTIONS ----------------------- */
+.section {
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1e2a78;
+    margin-bottom: 15px;
+}
+
+.section-text {
+    font-size: 17px;
+    color: #34406a;
+    line-height: 1.7;
+}
+
+.light-bg {
+    background: #f2f5ff;
+}
+
+/* ----------------- FEATURES GRID ----------------- */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.feature-card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #dfe3f4;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.feature-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1a237e;
+    font-weight: 600;
+}
+
+/* ----------------------- FOOTER ----------------------- */
+.footer {
+    background: #e7e9f8;
+    padding: 18px 0;
+    text-align: center;
+    color: #1a237e;
+    border-top: 1px solid #cdd2ef;
+}
+/* --------- PAGE TITLE BAR --------- */
+.page-title-bar {
+    background: #eef2ff;
+    padding: 40px 0;
+    border-bottom: 1px solid #dfe3f4;
+    margin-bottom: 30px;
+}
+
+.page-title-bar h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1a237e;
+    margin-bottom: 5px;
+}
+
+.page-title-bar p {
+    color: #3f4a78;
+    font-size: 17px;
+}
+
+/* --------- PUBLICATION CARD --------- */
+.pub-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.pub-card {
+    background: white;
+    padding: 25px 30px;
+    border-radius: 8px;
+    border: 1px solid #e0e5f5;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.pub-card h3 {
+    margin: 0 0 8px;
+    font-size: 22px;
+    color: #1e2a78;
+}
+
+.pub-meta {
+    margin-bottom: 15px;
+    color: #3a4374;
+    font-size: 15px;
+}
+
+.pub-meta strong {
+    color: #1a237e;
+}
+
+.pub-abstract {
+    color: #4a4f6c;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+.pub-link {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #304ffe;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.pub-link:hover {
+    background: #2034d8;
+}
+
+/* --------- TEAM GRID --------- */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.team-card {
+    background: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    border: 1px solid #dde3f7;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+}
+
+.team-card h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a237e;
+}
+
+.team-card .role {
+    color: #44527a;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Photo placeholder box */
+.team-photo {
+    width: 120px;
+    height: 120px;
+    background: #dbe2ff;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #b8c4ff;
+    font-size: 15px;
+    color: #3749a6;
+}
+
+/* --------- CONTACT GRID --------- */
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.contact-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #dce1f4;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.contact-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1a237e;
+    font-weight: 700;
+}
+
+.contact-card p {
+    margin: 5px 0;
+    color: #3f4a78;
+}
+
+.contact-link {
+    color: #304ffe;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+/* Fix photo inside hero container */
+.hero-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-box {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #ccd6ff;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    background: white;
+}
+
+/* Make image fit perfectly */
+.prof-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* crop proportionally */
+    object-position: center;
+}
+
+/* TEAM GRID LAYOUT */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    justify-items: center;
+}
+
+/* Tablets */
+@media (max-width: 1000px) {
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Phones */
+@media (max-width: 600px) {
+    .team-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* PHOTO WRAPPER */
+.team-photo {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #f0f0f0;   /* Soft gray */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* IMAGE INSIDE PHOTO */
+.team-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* PLACEHOLDER TEXT */
+.placeholder {
+    font-size: 1.4rem;
+    color: #999;
+    font-weight: 600;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;   /* pushes footer to the bottom */
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.linkedin-icon img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.2s ease;
+}
+
+.linkedin-icon img:hover {
+    transform: scale(1.15);
+}
+
+/* --- Team Grid Layout --- */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.2rem;
+    justify-items: center;
+}
+
+/* --- Team Card --- */
+.team-card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 28px 20px;
+    width: 100%;
+    max-width: 260px;
+    text-align: center;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+
+/* --- Circular Photo --- */
+.team-photo {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 18px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #e6e9ff;
+}
+
+.team-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* --- Placeholder Initials --- */
+.placeholder {
+    font-size: 2rem;
+    color: #777;
+    font-weight: 600;
+}
+
+/* --- Name & Role --- */
+.team-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.team-card .role {
+    font-size: 0.95rem;
+    color: #556;
+    margin-bottom: 14px;
+}
+
+/* --- Social Icons --- */
+.social-links {
+    margin-top: 8px;
+}
+
+.linkedin-icon img {
+    width: 26px;
+    height: 26px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+
+/* --- Responsive Fix for Tablets --- */
+@media (max-width: 1024px) {
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* --- Mobile Layout --- */
+@media (max-width: 650px) {
+    .team-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* Name + LinkedIn alignment */
+.name-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 6px;
+}
+
+/* Reduce space under name */
+.name-row h3 {
+    margin: 0;
+}
+
+/* Inline LinkedIn icon */
+.linkedin-inline img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.8;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.linkedin-inline img:hover {
+    transform: scale(1.15);
+    opacity: 1;
+}

@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Machine Learning for LiDAR-Based Indoor Surface Classification in Intelligent Wireless Environments",
+    "authors": "Parth Shiroya, Swarnagowri Shashidhar, Amod Ashtekar, Krishna Aindrila Kar, Rafaela Lomboy, Dalton Davis, Mohammed E. Eltayeb",
+    "venue": "IEEE (Specialized Conference)",
+    "year": "2025",
+    "abstract": "This paper presents a LiDAR-based machine learning framework for classifying indoor surfaces into semi-specular and low-specular types using small 3 cm × 3 cm surface patches. A dataset of 78,000+ LiDAR points from 16 indoor materials was collected, and geometric and intensity-based features were used with Random Forest, XGBoost, and Neural Network classifiers.",
+    "pdf_link": "https://arxiv.org/abs/2509.03813"
+  },
+
+  {
+    "title": "Refined Bayesian Optimization for Efficient Beam Alignment in Intelligent Indoor Wireless Environments",
+    "authors": "Parth Shiroya, Amod Ashtekar, Swarnagowri Shashidhar, Mohammed E. Eltayeb",
+    "venue": "IEEE International Conference on Communications (ICC)",
+    "year": "2026",
+    "abstract": "A Bayesian optimization framework that accelerates beam alignment in intelligent indoor wireless environments by efficiently reducing the beam search space.",
+    "pdf_link": ""
+  },
+
+  {
+    "title": "From Ghosts to Beams: Radar-Guided LoS/NLoS Beam Alignment for 60 GHz Communications",
+    "authors": "Aditya Mulik, Daniel R. Popescu, Amod Ashtekar, Mohammed E. Eltayeb",
+    "venue": "IEEE International Conference on Communications (ICC)",
+    "year": "2026",
+    "abstract": "A radar-assisted method for distinguishing LoS and NLoS paths and optimizing beam alignment for high-frequency indoor communications.",
+    "pdf_link": ""
+  },
+
+  {
+    "title": "Vision-Based Autonomous mmWave Reflector Using ArUco-Driven Angle-of-Arrival Estimation",
+    "authors": "Jesus Marroquin, Nwe Inzali, Michael Lantz, Cameron Freeman, Amod Ashtekar, Ameya Mulik, Mohammed E. Eltayeb",
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": "2026",
+    "abstract": "A mobile mmWave reflector system that uses ArUco-based localization and AoA estimation to autonomously enhance indoor wireless coverage.",
+    "pdf_link": ""
+  },
+
+  {
+    "title": "Compressive Beam Alignment for Indoor Millimeter-Wave Systems",
+    "authors": "April Junio, Rafaela Lomboy, Raj Sai Sohel Bandari, Mohammed E. Eltayeb",
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": "2025",
+    "abstract": "A compressive sensing approach to reduce beam training overhead while maintaining alignment accuracy in indoor mmWave environments.",
+    "pdf_link": "https://arxiv.org/abs/2406.07965"
+  },
+
+  {
+    "title": "LiDAR-Aided Millimeter-Wave Range Extension using a Passive Mirror Reflector",
+    "authors": "Omar Ibrahim, Raj Sai Sohel Bandari, Mohammed E. Eltayeb",
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": "2025",
+    "abstract": "A passive reflector system that uses LiDAR intensity patterns to identify optimal reflecting surfaces and extend mmWave coverage in NLoS scenarios.",
+    "pdf_link": "https://ieeexplore.ieee.org/document/10976161"
+  },
+
+  {
+    "title": "LiDAR-Aided NLoS Path Identification for Enhanced Indoor mmWave Communication",
+    "authors": "Dalton Davis, Rafaela Lomboy, Long (Sam) Ho, Mohammed E. Eltayeb",
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": "2025",
+    "abstract": "A LiDAR-based method for identifying viable NLoS reflection paths in mmWave networks to improve connectivity in indoor environments.",
+    "pdf_link": "https://ieeexplore.ieee.org/document/10976030"
+  },
+
+  {
+    "title": "Detecting Location Spoofing Attacks using Multiple Angle of Signal Arrivals in MM-Wave Vehicular Networks",
+    "authors": "C. S. Thondebhavi Shanthakumar, A. Chawariya, Y. Cheng, Mohammed E. Eltayeb",
+    "venue": "IEEE Vehicular Technology Conference (VTC-Spring)",
+    "year": "2024",
+    "abstract": "A multi-AoA detection framework to safeguard mmWave vehicular communication systems from location-spoofing attacks.",
+    "pdf_link": "https://research.nottingham.edu.cn/en/publications/detecting-location-spoofing-attacks-using-multiple-angle-of-signa/"
+  },
+
+  {
+    "title": "Millimeter-Wave Antenna Array Diagnosis with Partial Channel State Information",
+    "authors": "George Medina, Akashdeep Singh Jida, Saran Pulipati, Rohith Talwar, Nancy Amala J, Tareq Y. Al-Naffouri, Arjuna Madanayake, Mohammed E. Eltayeb",
+    "venue": "IEEE International Conference on Communications (ICC)",
+    "year": "2021",
+    "abstract": "A diagnostic method for mmWave antenna arrays using partial channel state information to detect failures and misalignments.",
+    "pdf_link": "https://ieeexplore.ieee.org/document/9500527"
+  },
+
+  {
+    "title": "Exploiting Multi-Path for Safeguarding mmWave Communications Against Randomly Located Eavesdroppers",
+    "authors": "Rohith Talwar, Nancy Amala, George Medina, Akshadeep Singh Jida, Mohammed E. Eltayeb",
+    "venue": "International Conference on Systems and Networks (ICONS)",
+    "year": "2020",
+    "abstract": "A physical-layer security strategy that uses multi-path diversity to protect mmWave links from randomly positioned eavesdroppers.",
+    "pdf_link": "https://arxiv.org/abs/2010.00733"
+  },
+
+  {
+    "title": "Xilinx RF-SoC-based Digital Multi-Beam Array Processors for 28/60 GHz Wireless Testbeds",
+    "authors": "Sravan Pulipati, Viduneth Ariyarathna, Aditya Dhananjay, Mohammed E. Eltayeb, Marco Mezzavilla, Josep M. Jornet, Soumyajit Mandal, Shubhendu Bhardwaj, Arjuna Madanayake",
+    "venue": "Moratuwa Engineering Research Conference (MERCon)",
+    "year": "2020",
+    "abstract": "A digital multi-beam array processor architecture implemented on Xilinx RF-SoC hardware for next-generation 28/60 GHz testbeds.",
+    "pdf_link": "https://ieeexplore.ieee.org/document/9185240"
+  },
+
+  {
+    "title": "Hybrid Precoding for Channel Estimation in Millimeter Wave Systems with Inter-Cell Interference",
+    "authors": "Ahmed Mohammed, Mohammed E. Eltayeb, Ivica Kostanic",
+    "venue": "IEEE Vehicular Technology Conference (VTC-Fall)",
+    "year": "2019",
+    "abstract": "A hybrid precoding strategy to perform channel estimation in multi-cell mmWave networks experiencing inter-cell interference.",
+    "pdf_link": ""
+  }
+]
