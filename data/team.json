@@ -23,12 +23,7 @@
         "photo": "images/amod_ashtekar.jpeg",
         "linkedin": "https://www.linkedin.com/in/amod-ashtekar/"
     },
-    {
-        "name": "Swarnagowri Shashidhar",
-        "role": "Research Volunteer",
-        "photo": "images/swarnagowri.jpeg",
-        "linkedin": "https://www.linkedin.com/in/swarna-gowri-s/"
-    },
+    
     {
         "name": "Dalton Davis",
         "role": "Graduate Student",
@@ -36,10 +31,34 @@
         "linkedin": "https://www.linkedin.com/in/daltonrdavis6565/"
     },
     {
+        "name": "Swarnagowri Shashidhar",
+        "role": "Research Volunteer",
+        "photo": "images/swarnagowri.jpeg",
+        "linkedin": "https://www.linkedin.com/in/swarna-gowri-s/"
+    },
+    {
         "name": "Ajinkya Mulik",
         "role": "Graduate Student",
         "photo": "images/ajinkya_mulik.jpeg",
         "linkedin": "https://www.linkedin.com/in/ajinkya-mulik-88713035b/"
+    },
+    {
+        "name": "April Junio",
+        "role": "Graduate Student",
+        "photo": "images/april_junio.jpeg",
+        "linkedin": "https://www.linkedin.com/in/april-junio-eit-3350494a/"
+    },
+    {
+        "name": "Rafaela Lomboy",
+        "role": "Graduate Student",
+        "photo": "images/rafaela_lomboy.jpeg",
+        "linkedin": "https://www.linkedin.com/in/rafaela-lomboy-123320242/"
+    },
+    {
+        "name": "Long (Sam) Ho",
+        "role": "Graduate Student",
+        "photo": "images/long_sam.jpeg",
+        "linkedin": "https://www.linkedin.com/in/long-ho-852234201/"
     },
     {
         "name": "Raj Sai Sohel Bandari ",
