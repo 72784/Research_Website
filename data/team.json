@@ -28,6 +28,24 @@
         "role": "Research Volunteer",
         "photo": "images/swarnagowri.jpeg",
         "linkedin": "https://www.linkedin.com/in/swarna-gowri-s/"
+    },
+    {
+        "name": "Dalton Davis",
+        "role": "Graduate Student",
+        "photo": "images/dalton_davis.jpeg",
+        "linkedin": "https://www.linkedin.com/in/daltonrdavis6565/"
+    },
+    {
+        "name": "Ajinkya Mulik",
+        "role": "Graduate Student",
+        "photo": "images/ajinkya_mulik.jpeg",
+        "linkedin": "https://www.linkedin.com/in/ajinkya-mulik-88713035b/"
+    },
+    {
+        "name": "Raj Sai Sohel Bandari ",
+        "role": "Graduate Student",
+        "photo": "images/raj_sai.jpeg",
+        "linkedin": "https://www.linkedin.com/in/raj-sai-sohel-bandari/"
     }
     
 ]
