@@ -117,8 +117,8 @@
     "year": "2026",
     "abstract": "A radar-assisted method for estimating indoor humidity by leveraging the hygroscopic response of common building materials.",
     "pdf_link": ""
-  }
-  ,
+  },
+  
   {
     "title": "From Ghosts to Beams: Radar-Guided LoS/NLoS Beam Alignment for 60 GHz Communications",
     "authors": "Aditya Mulik, Daniel R. Popescu, Amod Ashtekar, Mohammed E. Eltayeb",
