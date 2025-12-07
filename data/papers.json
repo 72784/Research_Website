@@ -111,11 +111,11 @@
 
 
   {
-    "title": "Hybrid Precoding for Channel Estimation in Millimeter Wave Systems with Inter-Cell Interference",
-    "authors": "Ahmed Mohammed, Mohammed E. Eltayeb, Ivica Kostanic",
-    "venue": "IEEE Vehicular Technology Conference (VTC-Fall)",
-    "year": "2019",
-    "abstract": "A hybrid precoding strategy to perform channel estimation in multi-cell mmWave networks experiencing inter-cell interference.",
+    "title": "Indoor Humidity Estimation Using Differential mmWave Backscatter Measurements",
+    "authors": "David Robert Popescu, Ajinkya Umesh Mulik, Stijn Wielandt∗, and Mohammed E. Eltayeb",
+    "venue": "IEEE International Conference on Communications (ICC)",
+    "year": "2026",
+    "abstract": "A radar-assisted method for estimating indoor humidity by leveraging the hygroscopic response of common building materials.",
     "pdf_link": ""
   }
   ,
