@@ -26,7 +26,7 @@
     
     {
         "name": "Dalton Davis",
-        "role": "Graduate Student",
+        "role": "Graduate Student (former)",
         "photo": "images/dalton_davis.jpeg",
         "linkedin": "https://www.linkedin.com/in/daltonrdavis6565/"
     },
@@ -44,25 +44,25 @@
     },
     {
         "name": "April Junio",
-        "role": "Graduate Student",
+        "role": "Graduate Student (former)",
         "photo": "images/april_junio.jpeg",
         "linkedin": "https://www.linkedin.com/in/april-junio-eit-3350494a/"
     },
     {
         "name": "Rafaela Lomboy",
-        "role": "Undergraduate Student",
+        "role": "Undergraduate Student (former)",
         "photo": "images/rafaela_lomboy.jpeg",
         "linkedin": "https://www.linkedin.com/in/rafaela-lomboy-123320242/"
     },
     {
         "name": "Long (Sam) Ho",
-        "role": "Undergraduate Student",
+        "role": "Undergraduate Student (former)",
         "photo": "images/long_sam.jpeg",
         "linkedin": "https://www.linkedin.com/in/long-ho-852234201/"
     },
     {
         "name": "Raj Sai Sohel Bandari ",
-        "role": "Graduate Student",
+        "role": "Research Volunteer",
         "photo": "images/raj_sai.jpeg",
         "linkedin": "https://www.linkedin.com/in/raj-sai-sohel-bandari/"
     },
@@ -70,7 +70,7 @@
         {
         "name": "Josue Marroquin",
         "role": "Undergraduate Student",
-        "photo": "images/josue.jpeg",
+        "photo": "images/Josue.jpeg",
         "linkedin": "https://www.linkedin.com/in/josue-marroquin-49041a1a4/"
     },
 
@@ -100,7 +100,7 @@
 
             {
         "name": "Omar Ibrahim",
-        "role": "Graduate Student",
+        "role": "Research Volunteer",
         "photo": "images/omar.jpeg",
         "linkedin": "https://www.linkedin.com/in/omar-ibrahim-06418885/"
     }
