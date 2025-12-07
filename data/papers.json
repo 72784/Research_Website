@@ -13,7 +13,7 @@
   {
   "title": "Refined Bayesian Optimization for Efficient Beam Alignment in Intelligent Indoor Wireless Environments",
   "authors": "Parth Shiroya, Amod Ashtekar, Swarnagowri Shashidhar, Mohammed E. Eltayeb",
-  "venue": "IEEE International Conference on Communications (ICC)",
+  "venue": "IEEE International Conference on Communications (ICC) - submitted",
   "year": "2026",
   "abstract": "This work introduces a Refined Bayesian Optimization (R-BO) framework for fast and accurate beam alignment in intelligent indoor wireless environments. R-BO models the angular power landscape using a Gaussian Process with a Matérn kernel and iteratively selects informative beam pairs through an Expected Improvement acquisition function, followed by a lightweight local refinement stage. Experiments with a 60 GHz indoor beam-sweep dataset show that R-BO achieves 97.7% alignment accuracy and less than 0.3 dB power loss while reducing probing overhead by 88% compared to exhaustive search, demonstrating its practicality for real-time 6G indoor beam training.",
   "pdf_link": "https://arxiv.org/abs/2512.00036",
@@ -112,8 +112,8 @@
 
   {
     "title": "Indoor Humidity Estimation Using Differential mmWave Backscatter Measurements",
-    "authors": "David Robert Popescu, Ajinkya Umesh Mulik, Stijn Wielandt∗, and Mohammed E. Eltayeb",
-    "venue": "IEEE International Conference on Communications (ICC)",
+    "authors": "David Robert Popescu, Ajinkya Umesh Mulik, Stijn Wielandt, and Mohammed E. Eltayeb",
+    "venue": ""IEEE Consumer Communications & Networking Conference (CCNC)",
     "year": "2026",
     "abstract": "A radar-assisted method for estimating indoor humidity by leveraging the hygroscopic response of common building materials.",
     "pdf_link": ""
@@ -122,7 +122,7 @@
   {
     "title": "From Ghosts to Beams: Radar-Guided LoS/NLoS Beam Alignment for 60 GHz Communications",
     "authors": "Aditya Mulik, Daniel R. Popescu, Amod Ashtekar, Mohammed E. Eltayeb",
-    "venue": "IEEE International Conference on Communications (ICC)",
+    "venue": "IEEE International Conference on Communications (ICC) - submitted",
     "year": "2026",
     "abstract": "A radar-assisted method for distinguishing LoS and NLoS paths and optimizing beam alignment for high-frequency indoor communications.",
     "pdf_link": ""
