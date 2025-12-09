@@ -110,21 +110,5 @@
 },  
 
 
-  {
-    "title": "Indoor Humidity Estimation Using Differential mmWave Backscatter Measurements",
-    "authors": "David Robert Popescu, Ajinkya Umesh Mulik, Stijn Wielandt, and Mohammed E. Eltayeb",
-    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
-    "year": "2026",
-    "abstract": "A radar-assisted method for estimating indoor humidity by leveraging the hygroscopic response of common building materials.",
-    "pdf_link": ""
-  },
-  
-  {
-    "title": "From Ghosts to Beams: Radar-Guided LoS/NLoS Beam Alignment for 60 GHz Communications",
-    "authors": "Aditya Mulik, Daniel R. Popescu, Amod Ashtekar, Mohammed E. Eltayeb",
-    "venue": "IEEE International Conference on Communications (ICC) - submitted",
-    "year": "2026",
-    "abstract": "A radar-assisted method for distinguishing LoS and NLoS paths and optimizing beam alignment for high-frequency indoor communications.",
-    "pdf_link": ""
-  }
+
 ]
