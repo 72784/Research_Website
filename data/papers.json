@@ -107,7 +107,7 @@
   "abstract": "This work presents fully-digital multi-beam array processors for 28 GHz and 60 GHz wireless testbeds using Xilinx RF-SoC technology. The authors develop wideband real-time beamforming platforms that integrate high-speed ADC/DAC converters, mmWave transceivers, and FPGA-based DSP to generate multiple simultaneous beams. Demonstrations include a 28 GHz lens–FPA receiver and a 60 GHz four-channel digital transceiver capable of O(1) multi-direction synchronization—highlighting the potential of RF-SoC devices as scalable experimental platforms for future 5G/6G mmWave and sub-THz systems.",
   "pdf_link": "https://ieeexplore.ieee.org/document/9185240",
   "image": "data/paper_images/small_images/rfsoc_multibeam.jpeg"
-},  
+}
 
 
 
