@@ -1,0 +1,374 @@
+[
+  {
+    "category": "journal",
+    "title": "Antenna Selection in Switch-Based MIMO Arrays via DOA Threshold-Region Approximation",
+    "authors": ["H. Chen", "T. Ballal", "M. E. Eltayeb", "T. Y. Al-Naffouri"],
+    "venue": "IEEE Transactions on Vehicular Technology",
+    "year": 2022,
+    "doi": "10.1109/TVT.2022.3192213"
+  },
+  {
+    "category": "journal",
+    "title": "Compressive Sensing for Millimeter Wave Antenna Array Diagnosis",
+    "authors": ["M. Eltayeb", "T. Al-Naffouri", "R. Heath"],
+    "venue": "IEEE Transactions on Communications",
+    "year": 2018,
+    "volume": "66",
+    "number": "6",
+    "pages": "2708--2721"
+  },
+  {
+    "category": "journal",
+    "title": "Enhancing Secrecy with Multi-Antenna Transmission in Millimeter Wave Vehicular Communication Systems",
+    "authors": ["M. Eltayeb", "J. Choi", "T. Al-Naffouri", "R. Heath"],
+    "venue": "IEEE Transactions on Vehicular Technology",
+    "year": 2017
+  },
+  {
+    "category": "journal",
+    "title": "On the Feedback Reduction of Relay Aided Multiuser Networks using Compressive Sensing",
+    "authors": ["K. Elkhalil", "M. Eltayeb", "A. Kammoun", "T. Al-Naffouri", "H. Bahrami"],
+    "venue": "IEEE Transactions on Communications",
+    "year": 2016
+  },
+  {
+    "category": "journal",
+    "title": "Opportunistic Relay Selection with Limited Feedback",
+    "authors": ["M. Eltayeb", "K. Elkhalil", "H. Bahrami", "T. Al-Naffouri"],
+    "venue": "IEEE Transactions on Communications",
+    "year": 2015
+  },
+  {
+    "category": "journal",
+    "title": "Compressive Sensing for Feedback Reduction in MIMO Broadcast Channels",
+    "authors": ["M. Eltayeb", "T. Al-Naffouri", "H. Bahrami"],
+    "venue": "IEEE Transactions on Communications",
+    "year": 2014
+  },
+  {
+    "category": "journal",
+    "title": "Opportunistic Multiuser Scheduling Algorithm for Multi-carrier Wireless Data Systems",
+    "authors": ["M. Eltayeb", "Y. Al-Harthi", "H. Bahrami"],
+    "venue": "Physical Communication",
+    "year": 2011
+  },
+  {
+    "category": "journal",
+    "title": "Multiuser Diversity with Binary Feedback",
+    "authors": ["M. Eltayeb", "Y. Al-Harthi"],
+    "venue": "Wireless Personal Communications",
+    "year": 2011
+  },
+
+
+  {
+    "category": "conference",
+    "title": "Refined Bayesian Optimization for Efficient Beam Alignment in Intelligent Indoor Wireless Environments",
+    "authors": ["P. A. Shiroya", "A. Ashtekar", "S. Shashidhar", "M. Eltayeb"],
+    "venue": "IEEE International Conference on Communications (ICC)",
+    "year": 2026,
+    "note": "submitted"
+  },
+  {
+    "category": "conference",
+    "title": "From Ghosts to Beams: Radar-Guided LoS/NLoS Beam Alignment for 60 GHz Communications",
+    "authors": ["A. U. Mulik", "D. R. Popescu", "A. Ashtekar", "M. Eltayeb"],
+    "venue": "IEEE International Conference on Communications (ICC)",
+    "year": 2026,
+    "note": "submitted"
+  },
+  {
+    "category": "conference",
+    "title": "Machine Learning for LiDAR-Based Indoor Surface Classification in Intelligent Wireless Environments",
+    "authors": ["P. A. Shiroya", "S. Shashidhar", "A. Ashtekar", "K. A. Kar", "R. Lomboy", "D. Davis", "M. Eltayeb"],
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": 2026
+  },
+  {
+    "category": "conference",
+    "title": "LiDAR Backscatter-Driven mmWave Beam Alignment in Indoor NLoS Environments",
+    "authors": ["A. Ashtekar", "M. Eltayeb"],
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": 2026
+  },
+  {
+    "category": "conference",
+    "title": "See and Beam: Leveraging LiDAR Sensing and Specular Surfaces for Indoor mmWave Connectivity",
+    "authors": ["R. S. S. Bandari", "A. Ashtekar", "O. Ibrahim", "M. Eltayeb"],
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": 2026
+  },
+  {
+    "category": "conference",
+    "title": "Indoor Humidity Estimation Using Differential mmWave Backscatter Measurements",
+    "authors": ["D. R. Popescu", "A. U. Mulik", "S. Wielandt", "M. Eltayeb"],
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": 2026
+  },
+  {
+    "category": "conference",
+    "title": "Millimeter-Wave Body-Centric Radar Sensing for Continuous Monitoring of Human Gait Dynamics",
+    "authors": ["Z. Najafi", "M. Eltayeb"],
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": 2026
+  },
+  {
+    "category": "conference",
+    "title": "Exploring Consumer IoT for Cardiac Care: Lightweight ECG-Based AFib Screening on Smartphones",
+    "authors": ["A. P. S. Dhanoa", "Z. Najafi", "M. Eltayeb"],
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": 2026
+  },
+  {
+    "category": "conference",
+    "title": "Vision-Based Autonomous MM-Wave Reflector Using ArUco-Driven Angle-of-Arrival Estimation",
+    "authors": ["J. Marroquin", "N. Inzali", "M. Lantz", "C. Freeman", "A. Ashtekar", "A. Mulik", "M. Eltayeb"],
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": 2026
+  },
+  {
+    "category": "conference",
+    "title": "Evaluating the Effects of Active-Learning Implementation in a Foundational Engineering Course",
+    "authors": ["C. Ishikawa", "P. Meduri", "S. Aguilar-Rudametkin", "M. E. Eltayeb", "M. Markovic"],
+    "venue": "IEEE Frontiers in Education Conference (FIE)",
+    "year": 2025,
+    "address": "Nashville, TN"
+  },
+  {
+    "category": "conference",
+    "title": "Compressive Beam Alignment for Indoor Millimeter-Wave Systems",
+    "authors": ["A. Junio", "R. Lomboy", "R. S. S. Bandari", "M. Eltayeb"],
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": 2025,
+    "address": "Las Vegas, NV"
+  },
+  {
+    "category": "conference",
+    "title": "LiDAR-Aided Millimeter-Wave Range Extension using a Passive Mirror Reflector",
+    "authors": ["O. Ibrahim", "R. S. S. Bandari", "M. Eltayeb"],
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": 2025,
+    "address": "Las Vegas, NV"
+  },
+  {
+    "category": "conference",
+    "title": "LiDAR-Aided NLoS Path Identification for Enhanced Indoor mmWave Communication",
+    "authors": ["D. Davis", "R. Lomboy", "L. Ho", "M. Eltayeb"],
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": 2025,
+    "address": "Las Vegas, NV"
+  },
+  {
+    "category": "conference",
+    "title": "Engineering Gateway Course Redesign for Equity through Critical-Paths",
+    "authors": ["P. Meduri", "M. E. Eltayeb", "M. Markovic"],
+    "venue": "ASEE Annual Conference & Exposition",
+    "year": 2023,
+    "address": "Baltimore, MD"
+  },
+  {
+    "category": "conference",
+    "title": "Detecting Location Spoofing Attacks using Multiple Angle of Signal Arrivals in MM-Wave Vehicular Networks",
+    "authors": ["C. S. T. Shanthakumar", "A. Chawariya", "Y. Cheng", "M. E. Eltayeb"],
+    "venue": "IEEE 99th Vehicular Technology Conference (VTC-Spring)",
+    "year": 2024,
+    "address": "Singapore"
+  },
+  {
+    "category": "conference",
+    "title": "Millimeter-Wave Antenna Array Diagnosis with Partial Channel State Information",
+    "authors": ["G. Medina", "A. S. Jida", "S. Pulipati", "R. Talwar", "N. Amala", "T. Y. Al-Naffouri", "M. Madanayake", "M. Eltayeb"],
+    "venue": "IEEE International Conference on Communications (ICC)",
+    "year": 2021,
+    "address": "Montreal, Canada"
+  },
+  {
+    "category": "conference",
+    "title": "Exploiting Multi-Path for Safeguarding mmWave Communications Against Randomly Located Eavesdroppers",
+    "authors": ["R. Talwar", "N. Amala", "G. Medina", "A. S. Jida", "M. Eltayeb"],
+    "venue": "International Conference on Systems and Networks",
+    "year": 2020
+  },
+  {
+    "category": "conference",
+    "title": "Xilinx RF-SoC-based Digital Multi-Beam Array Processors for 28/60 GHz Wireless Testbeds",
+    "authors": ["S. Pulipati", "V. Ariyarathna", "A. Dhananjay", "M. Eltayeb", "M. Mezzavilla", "J. M. Jornet", "S. Mandal", "S. Bhardwaj", "A. Madanayake"],
+    "venue": "Moratuwa Engineering Research Conference (MERCon)",
+    "year": 2020,
+    "pages": "254--259"
+  },
+  {
+    "category": "conference",
+    "title": "Hybrid Precoding for Channel Estimation in Millimeter Wave Systems with Inter-Cell Interference",
+    "authors": ["A. Mohammed", "M. Eltayeb", "I. Kostanic"],
+    "venue": "IEEE 90th Vehicular Technology Conference (VTC-Fall)",
+    "year": 2019,
+    "address": "Honolulu, HI"
+  },
+  {
+    "category": "conference",
+    "title": "Relay-Aided Channel Estimation for mmWave Systems with Imperfect Antenna Arrays",
+    "authors": ["M. Eltayeb"],
+    "venue": "IEEE International Conference on Communications (ICC)",
+    "year": 2019,
+    "address": "Shanghai, China"
+  },
+  {
+    "category": "conference",
+    "title": "Securing mmWave Vehicular Communication Links with Multiple Transmit Antennas",
+    "authors": ["M. Eltayeb", "R. Heath"],
+    "venue": "IEEE International Conference on Communications Workshops (ICC Workshops)",
+    "year": 2018,
+    "address": "Missouri, USA"
+  },
+  {
+    "category": "conference",
+    "title": "Sparsity-Aware Adaptive Beamforming Design for IEEE 802.11ad-based Joint Communication-Radar",
+    "authors": ["P. Kumari", "M. Eltayeb", "R. Heath"],
+    "venue": "IEEE Radar Conference (RadarConf ’18)",
+    "year": 2018,
+    "address": "Oklahoma, USA"
+  },
+  {
+    "category": "conference",
+    "title": "A Microsimulation Approach to Quantify the Safety Benefits of Connected Vehicles: A Road Hazard Warnings Application",
+    "authors": ["G. Nair", "M. Eltayeb", "R. Heath", "C. Bhat", "N. Ruiz"],
+    "venue": "Transportation Research Board Annual Meeting",
+    "year": 2018,
+    "address": "Washington, DC"
+  },
+  {
+    "category": "conference",
+    "title": "Compressive Sensing for Vehicular Millimeter Wave Antenna Array Diagnosis",
+    "authors": ["M. Eltayeb", "T. Al-Naffouri", "R. Heath"],
+    "venue": "IEEE Global Communications Conference (GLOBECOM)",
+    "year": 2016,
+    "address": "Washington, DC"
+  },
+  {
+    "category": "conference",
+    "title": "On the Security of Millimeter Wave Vehicular Communication Systems using Random Antenna Subsets",
+    "authors": ["M. Eltayeb", "J. Choi", "T. Al-Naffouri", "R. Heath"],
+    "venue": "IEEE Vehicular Technology Conference (VTC-Fall)",
+    "year": 2016,
+    "address": "Montreal, Canada"
+  },
+  {
+    "category": "conference",
+    "title": "Opportunistic Beam Training with Hybrid Analog/Digital Codebooks for mmWave Systems",
+    "authors": ["M. Eltayeb", "A. Alkhateeb", "R. Heath", "T. Al-Naffouri"],
+    "venue": "IEEE Global Conference on Signal and Information Processing (GlobalSIP)",
+    "year": 2015,
+    "address": "Orlando, FL"
+  },
+  {
+    "category": "conference",
+    "title": "Block Compressed Sensing For Feedback Reduction in Relay-Aided Multiuser Full Duplex Networks",
+    "authors": ["K. Elkhalil", "M. Eltayeb", "A. Kammoun", "T. Al-Naffouri", "H. Bahrami"],
+    "venue": "IEEE SPAWC",
+    "year": 2016,
+    "address": "Edinburgh, UK"
+  },
+  {
+    "category": "conference",
+    "title": "Relay Selection with Limited and Noisy Feedback",
+    "authors": ["M. Eltayeb", "K. Elkhalil", "A. Mas’ud", "T. Al-Naffouri"],
+    "venue": "IEEE Vehicular Technology Conference",
+    "year": 2015,
+    "address": "Boston, USA"
+  },
+  {
+    "category": "conference",
+    "title": "Distributed User Selection in Network MIMO Systems with Limited Feedback",
+    "authors": ["K. Elkhalil", "M. Eltayeb", "H. Dahrouj", "T. Al-Naffouri"],
+    "venue": "IEEE Vehicular Technology Conference",
+    "year": 2015,
+    "address": "Boston, USA"
+  },
+  {
+    "category": "conference",
+    "title": "Statistical Error Tolerances of Partial Discharge Recognition Rates",
+    "authors": ["A. Mas’ud", "M. Eltayeb", "F. Muhammad-Sukki", "N. Bani"],
+    "venue": "IEEE Conference on Sustainable Utilization and Development in Engineering and Technology",
+    "year": 2015,
+    "address": "Selangor, Malaysia"
+  },
+  {
+    "category": "conference",
+    "title": "Opportunistic Relay Selection in Multicast Relay Networks using Compressive Sensing",
+    "authors": ["K. Elkhalil", "M. Eltayeb", "H. Shibili", "H. Bahrami", "T. Al-Naffouri"],
+    "venue": "IEEE GlobeCom",
+    "year": 2014,
+    "address": "Austin, USA"
+  },
+  {
+    "category": "conference",
+    "title": "Downlink Scheduling using Non-Orthogonal Uplink Beams",
+    "authors": ["M. Eltayeb", "T. Al-Naffouri", "H. Bahrami"],
+    "venue": "IEEE Wireless Communications and Networking Conference (WCNC)",
+    "year": 2014,
+    "address": "Istanbul, Turkey"
+  },
+  {
+    "category": "conference",
+    "title": "A Bayesian Matching Pursuit Based Scheduling Algorithm for Feedback Reduction in MIMO Broadcast Channels",
+    "authors": ["H. Shibli", "M. Eltayeb", "T. Al-Naffouri"],
+    "venue": "International Conference on Communications and Information Technology (ICCIT)",
+    "year": 2013,
+    "address": "Beirut"
+  },
+  {
+    "category": "conference",
+    "title": "On the Efficiency and Privacy of Smart Grids Neighborhood Area Networks",
+    "authors": ["M. Eltayeb", "H. Bahrami", "T. Al-Naffouri"],
+    "venue": "IEEE EnergyTech",
+    "year": 2013,
+    "address": "Cleveland, OH"
+  },
+  {
+    "category": "conference",
+    "title": "A Joint Polling and Contention Based Opportunistic Scheduling Algorithm with Fairness Constraint",
+    "authors": ["M. Eltayeb", "H. Bahrami", "Y. Al-Harthi", "S. Beygi"],
+    "venue": "IEEE International Workshop on Heterogeneous, Multi-Hop, Wireless and Mobile Networks",
+    "year": 2012,
+    "address": "Anaheim, CA"
+  },
+  {
+    "category": "conference",
+    "title": "Exploiting Multiuser Diversity in OFDMA Systems with Limited Feedback",
+    "authors": ["M. Eltayeb", "H. Bahrami", "Y. Al-Harthi", "S. Beygi"],
+    "venue": "IEEE Vehicular Technology Conference",
+    "year": 2011,
+    "address": "San Francisco, CA"
+  },
+  {
+    "category": "conference",
+    "title": "Opportunistic Beamforming with Precoding for Spatially Correlated Channels",
+    "authors": ["T. Al-Naffouri", "M. Eltayeb"],
+    "venue": "Canadian Workshop on Information Theory (CWIT)",
+    "year": 2009,
+    "address": "Ottawa, Canada"
+  },
+
+
+  {
+    "category": "other",
+    "title": "OFDM Peak-to-Average Power Ratio Reduction Method",
+    "authors": ["M. E. Eltayeb (Co-Inventor)"],
+    "venue": "US Patent 8483296",
+    "year": 2013,
+    "type": "patent"
+  },
+  {
+    "category": "other",
+    "title": "Communications and Radar-Supported Transportation Operations and Planning",
+    "authors": [
+      "M. Motro", "T. Kim", "R. Kalantari", "J. Ghosh", "J. Choi", "A. Ali",
+      "P. Kumari", "E. Yeh", "Y. Wang", "D. Nguyen", "M. Eltayeb", "R. W. Heath Jr.",
+      "P. S. Lavieri", "C. R. Bhat"
+    ],
+    "venue": "Texas Department of Transportation",
+    "year": 2017,
+    "type": "techreport"
+  }
+]

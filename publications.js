@@ -1,24 +1,43 @@
-async function loadPublications() {
-    const url = "https://api.semanticscholar.org/graph/v1/author/1774674/papers?fields=title,year,venue,authors,url";
+// Load publications.json
+async function loadPubs() {
+    try {
+        const response = await fetch("data/publications.json");
+        const pubs = await response.json();
 
-    const response = await fetch(url);
-    const data = await response.json();
+        renderCategory("journal", "journal-list", pubs);
+        renderCategory("conference", "conference-list", pubs);
+        renderCategory("other", "other-list", pubs);
 
-    const container = document.getElementById("pub-list");
-
-    data.data
-        .sort((a,b) => b.year - a.year)
-        .forEach(paper => {
-            const item = document.createElement("div");
-            item.classList.add("paper-item");
-
-            item.innerHTML = `
-                <h3>${paper.title}</h3>
-                <p><strong>${paper.venue || "—"}</strong>, ${paper.year}</p>
-                <a href="${paper.url}" target="_blank">View Paper</a>
-            `;
-
-            container.appendChild(item);
-        });
+    } catch (error) {
+        console.error("Failed to load publications.json:", error);
+    }
 }
-loadPublications();
+
+function renderCategory(category, elementId, pubs) {
+    const container = document.getElementById(elementId);
+    if (!container) return;
+
+    const filtered = pubs
+        .filter(p => p.category === category)
+        .sort((a, b) => Number(b.year) - Number(a.year));
+
+    filtered.forEach(p => {
+        const li = document.createElement("li");
+
+        // Authors: handle string OR array
+        const authors = Array.isArray(p.authors)
+            ? p.authors.join(", ")
+            : p.authors;
+
+        const venue = p.venue ? `<em>${p.venue}</em>` : "";
+
+        const doi = p.doi
+            ? ` doi: <a href="https://doi.org/${p.doi}" target="_blank">${p.doi}</a>`
+            : "";
+
+        li.innerHTML = `${authors}, “${p.title},” ${venue}, ${p.year}.${doi}`;
+        container.appendChild(li);
+    });
+}
+
+loadPubs();
