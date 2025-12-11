@@ -62,8 +62,9 @@ Research_Website
 ## 📝 Updating Content
 To update the website, you simply need to edit the files inside the data/ folder.
 
-1. Adding a Publication
-Open data/publications.json and add a new entry to the list:
+### 1. Adding a Standard Publication (List View)
+Open `data/publications.json` and add a new entry (like below) to the list. This populates the main publications table.
+
 ```json
 {
   "category": "journal",
@@ -73,8 +74,36 @@ Open data/publications.json and add a new entry to the list:
   "year": 2018
 }
 ```
-2. Adding a Team Member
+### 2. Adding "Recent Research" (Highlights)
+This section appears on the research page and requires an image (Prefereably small image (low quality) for faster website rendering).
+
+Upload the Image: Save a small thumbnail to images/paper_images/.
+
+Update JSON: Open data/papers.json and add the entry like below example:
+```json
+{
+  "title": "Machine Learning for LiDAR-Based Indoor Surface Classification",
+  "authors": "Parth Shiroya, Dalton Davis, Mohammed E. Eltayeb",
+  "venue": "IEEE (Specialized Conference)",
+  "year": "2025",
+  "abstract": "This paper introduces a LiDAR-driven machine learning framework...",
+  "pdf_link": "[https://arxiv.org/abs/2509.03813](https://arxiv.org/abs/2509.03813)",
+  "image": "images/paper_images/small_images/lidar_scattering.jpeg"
+}
+```
+
+### 3. Adding a Team Member
 Open data/team.json and add a new member object. Ensure their image is uploaded to images/team_images/.
+
+Below is an example of Team Member entry.
+```json
+{
+  "name": "David-Robert Popescu",
+  "role": "Graduate Student",
+  "photo": "david.jpeg",
+  "linkedin": "https://www.linkedin.com/in/david-robert-popescu-9875812b7/"
+},
+```
 
 ## 🚀 Deployment
 The website is fully configured for Vercel.
