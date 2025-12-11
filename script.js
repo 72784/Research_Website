@@ -10,7 +10,7 @@ fetch("./data/recent_research.json")
 
       card.innerHTML = `
   <div class="pub-card-inner">
-      <img class="pub-image" src="${paper.image || 'data/icons/paper_default.png'}" alt="Paper Image">
+      <img class="pub-image" src="${paper.image || 'images/icons/paper_default.png'}" alt="Paper Image">
 
       <div class="pub-content">
           <h3>${paper.title}</h3>
@@ -97,13 +97,13 @@ fetch("data/team.json")
                 const initials = member.name.split(" ").map(n => n[0]).join("").toUpperCase();
                 photoContent = `<div class="placeholder">${initials}</div>`;
             } else {
-                photoContent = `<img src="data/team_images/${member.photo}" alt="${member.name}">`;
+                photoContent = `<img src="images/team_images/${member.photo}" alt="${member.name}">`;
             }
 
             // LinkedIn icon (only if link is provided)
             const linkedin = member.linkedin
             ? `<a href="${member.linkedin}" target="_blank" class="linkedin-inline">
-                    <img src="icons/linkedin.png" alt="LinkedIn">
+                    <img src="images/icons/linkedin.png" alt="LinkedIn">
             </a>`
             : "";
 
