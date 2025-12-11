@@ -39,76 +39,76 @@ fetch("./data/recent_research.json")
 
 // Load ALL PUBLICATIONS dynamically (publications.json)
 async function loadPubs() {
-    try {
-        const response = await fetch("data/publications.json");
-        const pubs = await response.json();
+  try {
+    const response = await fetch("data/publications.json");
+    const pubs = await response.json();
 
-        renderCategory("journal", "journal-list", pubs);
-        renderCategory("conference", "conference-list", pubs);
-        renderCategory("other", "other-list", pubs);
+    renderCategory("journal", "journal-list", pubs);
+    renderCategory("conference", "conference-list", pubs);
+    renderCategory("other", "other-list", pubs);
 
-    } catch (error) {
-        console.error("Failed to load publications.json:", error);
-    }
+  } catch (error) {
+    console.error("Failed to load publications.json:", error);
+  }
 }
 
 function renderCategory(category, elementId, pubs) {
-    const container = document.getElementById(elementId);
-    if (!container) return;
+  const container = document.getElementById(elementId);
+  if (!container) return;
 
-    const filtered = pubs
-        .filter(p => p.category === category)
-        .sort((a, b) => Number(b.year) - Number(a.year));
+  const filtered = pubs
+    .filter(p => p.category === category)
+    .sort((a, b) => Number(b.year) - Number(a.year));
 
-    filtered.forEach(p => {
-        const li = document.createElement("li");
+  filtered.forEach(p => {
+    const li = document.createElement("li");
 
-        // Authors: handle string OR array
-        const authors = Array.isArray(p.authors)
-            ? p.authors.join(", ")
-            : p.authors;
+    // Authors: handle string OR array
+    const authors = Array.isArray(p.authors)
+      ? p.authors.join(", ")
+      : p.authors;
 
-        const venue = p.venue ? `<em>${p.venue}</em>` : "";
+    const venue = p.venue ? `<em>${p.venue}</em>` : "";
 
-        const doi = p.doi
-            ? ` doi: <a href="https://doi.org/${p.doi}" target="_blank">${p.doi}</a>`
-            : "";
+    const doi = p.doi
+      ? ` doi: <a href="https://doi.org/${p.doi}" target="_blank">${p.doi}</a>`
+      : "";
 
-        li.innerHTML = `${authors}, “${p.title},” ${venue}, ${p.year}.${doi}`;
-        container.appendChild(li);
-    });
+    li.innerHTML = `${authors}, “${p.title},” ${venue}, ${p.year}.${doi}`;
+    container.appendChild(li);
+  });
 }
 
 loadPubs();
 
 // Load TEAM DETAILS dynamically (team.json)
 fetch("data/team.json")
-    .then(response => response.json())
-    .then(teamMembers => {
-        const container = document.getElementById("team-container");
+  .then(response => response.json())
+  .then(teamMembers => {
+    const container = document.getElementById("team-container");
 
-        teamMembers.forEach(member => {
-            const card = document.createElement("div");
-            card.className = "team-card";
+    teamMembers.forEach(member => {
+      const card = document.createElement("div");
+      card.className = "team-card";
 
-            // Photo or initials placeholder
-            let photoContent = "";
-            if (!member.photo || member.photo.trim() === "") {
-                const initials = member.name.split(" ").map(n => n[0]).join("").toUpperCase();
-                photoContent = `<div class="placeholder">${initials}</div>`;
-            } else {
-                photoContent = `<img src="images/team_images/${member.photo}" alt="${member.name}">`;
-            }
+      // Photo or initials placeholder
+      let photoContent = "";
+      if (!member.photo || member.photo.trim() === "") {
+        const initials = member.name.split(" ").map(n => n[0]).join("").toUpperCase();
+        photoContent = `<div class="placeholder">${initials}</div>`;
+      } else {
+        photoContent = `<img src="images/team_images/${member.photo}" alt="${member.name}">`;
+      }
 
-            // LinkedIn icon (only if link is provided)
-            const linkedin = member.linkedin
-            ? `<a href="${member.linkedin}" target="_blank" class="linkedin-inline">
+      // LinkedIn icon (only if link is provided)
+      const linkedin = member.linkedin
+        ? `<a href="${member.linkedin}" target="_blank" class="linkedin-inline">
                     <img src="images/icons/linkedin.png" alt="LinkedIn">
             </a>`
-            : "";
+        : "";
 
 
-            card.innerHTML = `
+      card.innerHTML = `
                 <div class="team-photo">${photoContent}</div>
 
                 <div class="name-row">
@@ -119,6 +119,6 @@ fetch("data/team.json")
                 <p class="role">${member.role}</p>
             `;
 
-            container.appendChild(card);
-        });
+      container.appendChild(card);
     });
+  });
