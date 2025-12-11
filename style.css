@@ -411,8 +411,8 @@ a {
 }
 
 .linkedin-inline img {
-    width: 20px; /* Reduced slightly for alignment */
-    height: 20px;
+    width: 28px; /* Reduced slightly for alignment */
+    height: 28px;
     opacity: 0.8;
     transition: 0.2s ease;
 }
