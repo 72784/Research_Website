@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Machine Learning for LiDAR-Based Indoor Surface Classification in Intelligent Wireless Environments",
+    "authors": "Parth Shiroya, Swarnagowri Shashidhar, Amod Ashtekar, Krishna Aindrila Kar, Rafaela Lomboy, Dalton Davis, Mohammed E. Eltayeb",
+    "venue": "IEEE (Specialized Conference)",
+    "year": "2025",
+    "abstract": "This paper introduces a LiDAR-driven machine learning framework for classifying indoor surfaces based on their scattering behavior, a key factor influencing mmWave and sub-THz propagation. Using more than 78,000 LiDAR points from 15 representative indoor materials, 3 cm × 3 cm patches are described with compact geometric and reflectivity-based features and classified using Random Forest, XGBoost, and a lightweight neural network under a leave-surface-out protocol. Results show that tree-based ensembles provide the best accuracy and robustness, enabling the creation of scatter-aware environment maps for adaptive beam management and intelligent wireless systems.",
+    "pdf_link": "https://arxiv.org/abs/2509.03813",
+    "image": "data/paper_images/small_images/lidar_scattering.jpeg"
+  },
+  {
+    "title": "Refined Bayesian Optimization for Efficient Beam Alignment in Intelligent Indoor Wireless Environments",
+    "authors": "Parth Shiroya, Amod Ashtekar, Swarnagowri Shashidhar, Mohammed E. Eltayeb",
+    "venue": "IEEE International Conference on Communications (ICC) - submitted",
+    "year": "2026",
+    "abstract": "This work introduces a Refined Bayesian Optimization (R-BO) framework for fast and accurate beam alignment in intelligent indoor wireless environments. R-BO models the angular power landscape using a Gaussian Process with a Matérn kernel and iteratively selects informative beam pairs through an Expected Improvement acquisition function, followed by a lightweight local refinement stage. Experiments with a 60 GHz indoor beam-sweep dataset show that R-BO achieves 97.7% alignment accuracy and less than 0.3 dB power loss while reducing probing overhead by 88% compared to exhaustive search, demonstrating its practicality for real-time 6G indoor beam training.",
+    "pdf_link": "https://arxiv.org/abs/2512.00036",
+    "image": "data/paper_images/small_images/bayesian_optimization.jpeg"
+  },
+  {
+    "title": "Vision-Based Autonomous mmWave Reflector Using ArUco-Driven Angle-of-Arrival Estimation",
+    "authors": "Josue Marroquin, Nan Inzali, Miles Dillon Lantz, Campbell Freeman, Amod Ashtekar, Ajinkya Umesh Mulik, Mohammed E. Eltayeb",
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": "2026",
+    "abstract": "This paper presents a proof-of-concept vision-guided passive reflector system that autonomously enhances millimeter-wave (mmWave) non-line-of-sight (NLoS) communication links using ArUco-based angle-of-arrival estimation. A lightweight monocular camera detects fiducial markers on transmitter and receiver nodes, enabling the system to infer their relative orientation and steer a motorized metallic reflector in real time—without RF feedback, external infrastructure, or reconfigurable intelligent surfaces (RIS). The use of uniquely identifiable markers also enables selective alignment toward authorized users, addressing the user identification challenge not considered in prior vision-aided RIS work. A low-cost Raspberry Pi 4 prototype demonstrates robust operation in dynamic indoor 60 GHz NLoS scenarios, achieving up to 17 dB (and an average ≈10 dB) improvement in received power compared to the no-reflector baseline. These results show that vision-guided reflectors provide a practical, energy-efficient alternative to relays and RIS platforms for short-range IoT, AR/VR, and indoor wireless coverage.",
+    "pdf_link": "https://www.arxiv.org/abs/2506.05195",
+    "image": "data/paper_images/small_images/aruco.jpg"
+  },
+  {
+    "title": "Compressive Beam Alignment for Indoor Millimeter-Wave Systems",
+    "authors": "April Junio, Rafaela Lomboy, Raj Sai Sohel Bandari, and Mohammed E. Eltayeb",
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": "2025",
+    "abstract": "This work introduces a compressed sensing–based beam alignment technique designed for indoor millimeter-wave (mmWave) systems, where scattering, blockages, and hardware imperfections make traditional beam training inefficient. Unlike existing methods that rely on channel models or predefined array responses, the proposed approach is fully model-agnostic. By leveraging the energy compaction properties of the Discrete Cosine Transform (DCT), the method reconstructs dominant angular clusters from a limited set of beam measurements, enabling fast and accurate beam alignment. Experiments at 60 GHz show significant reductions in beam training overhead with alignment accuracy comparable to exhaustive search.",
+    "pdf_link": "https://arxiv.org/abs/2406.07965",
+    "image": "data/paper_images/small_images/compressive_beam_alignment.jpeg"
+  },
+  {
+    "title": "LiDAR-Aided Millimeter-Wave Range Extension using a Passive Mirror Reflector",
+    "authors": "Omar Ibrahim, Raj Sai Sohel Bandari, Mohammed E. Eltayeb",
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": "2025",
+    "abstract": "This work investigates the use of passive mirror reflectors to extend millimeter-wave (mmWave) coverage into non-line-of-sight (NLoS) regions and to address the uneven reflection patterns that often lead to outages. By integrating LiDAR sensing with reflector-assisted mmWave links, the paper proposes two enhancement techniques: a location-dependent RSS back-off strategy that reduces NLoS outages, and a user-selection method that prioritizes users in strong coverage zones. Experimental results from an L-shaped indoor corridor show that LiDAR-derived user position information significantly improves NLoS reliability, reduces communication disruptions, and enhances mmWave signal strength.",
+    "pdf_link": "https://ieeexplore.ieee.org/document/10976161",
+    "image": "data/paper_images/small_images/passive_mirror_reflector.jpeg"
+  },
+  {
+    "title": "LiDAR-Aided NLoS Path Identification for Enhanced Indoor mmWave Communication",
+    "authors": "Dalton Davis, Rafaela Lomboy, Long (Sam) Ho, Mohammed E. Eltayeb",
+    "venue": "IEEE Consumer Communications & Networking Conference (CCNC)",
+    "year": "2025",
+    "abstract": "This paper presents a LiDAR-based technique for identifying non-line-of-sight (NLoS) mmWave communication paths in indoor environments. By combining LiDAR distance measurements, backscattered intensity, and prior transmitter/receiver location information, the method reconstructs the environment and selects reflective surfaces capable of supporting strong first-order NLoS reflections. The approach groups LiDAR points by AoA/AoD, evaluates surface reflectivity using LiDAR intensity, and ranks candidate paths based on angle-of-incidence consistency and predicted scattering loss. Experiments in a realistic indoor laboratory show that the proposed method achieves NLoS path predictions comparable to exhaustive mmWave beam training—particularly for top-1 paths—without requiring full beam sweeps. This enables faster and more efficient NLoS recovery in dynamic indoor settings.",
+    "pdf_link": "https://ieeexplore.ieee.org/document/10976030",
+    "image": "data/paper_images/small_images/lidar_aided_nlos_path.jpeg"
+  },
+  {
+    "title": "Detecting Location Spoofing Attacks using Multiple Angle of Signal Arrivals in MM-Wave Vehicular Networks",
+    "authors": "Chandana Sai Thondebhavi Shanthakumar, Aishwarya Chawariya, Yuan Cheng, Mohammed E. Eltayeb",
+    "venue": "IEEE Vehicular Technology Conference (VTC-Spring)",
+    "year": "2024",
+    "abstract": "This paper proposes a physical-layer spoofing attack detection technique for mmWave vehicular networks that leverages hybrid antenna architectures to jointly perform beamforming and channel sensing. By analyzing clusters of estimated angles of arrival (AoAs) and verifying their consistency with reported vehicle locations, the system can accurately detect position-falsification attacks using only a small number of received packets. The approach avoids any additional sensing overhead or dedicated channel estimation stage, offering an efficient and highly reliable mechanism for securing mmWave links in intelligent transportation systems.",
+    "pdf_link": "https://doi.org/10.1109/VTC2024-Spring62846.2024.10683294",
+    "image": "data/paper_images/small_images/mmwave_vehicle_spoof.jpeg"
+  },
+  {
+    "title": "Millimeter-Wave Antenna Array Diagnosis with Partial Channel State Information",
+    "authors": "George Medina, Akashdeep Singh Jida, Sravan Pulipati, Rohith Talwar, Nancy Amala J, Tareq Y. Al-Naffouri, Arjuna Madanayake, Mohammed E. Eltayeb",
+    "venue": "IEEE International Conference on Communications (ICC)",
+    "year": "2021",
+    "abstract": "This paper introduces a remote diagnostic technique for millimeter-wave (mmWave) antenna arrays that relaxes the need for full channel state information (CSI), unlike prior compressed-sensing-based array diagnosis methods. The proposed approach detects antenna element blockages and failures using only partial channel knowledge—specifically, the set of possible angles-of-arrival (AoAs). By designing receive combining vectors that null out contributions from valid AoAs, the method isolates fault-induced distortions and formulates them as a sparse recovery problem. Numerical results show that the technique achieves reliable fault detection with a comparable number of diagnostic measurements to full-CSI methods, while demonstrating improved robustness under channel estimation errors and practical hardware impairments.",
+    "pdf_link": "https://ieeexplore.ieee.org/document/9500527",
+    "image": "data/paper_images/small_images/partial_csi.jpeg"
+  },
+  {
+    "title": "Exploiting Multi-Path for Safeguarding mmWave Communications Against Randomly Located Eavesdroppers",
+    "authors": "Rohith Talwar, Nancy Amala, George Medina, Akashdeep Singh Jida, Mohammed E. Eltayeb",
+    "venue": "arXiv Preprint",
+    "year": "2020",
+    "abstract": "This paper investigates physical-layer security for millimeter-wave (mmWave) systems in environments where randomly located eavesdroppers may intercept the communication link through both line-of-sight and non-line-of-sight paths. Unlike conventional security strategies that rely on a single LoS beam and fail when paths overlap, the proposed approach leverages multipath propagation to generate noise-like interference at unintended receivers. Two lightweight transmission strategies—random path selection and joint antenna–path selection—are introduced to exploit channel randomness without requiring complex antenna architectures or full eavesdropper channel knowledge. Simulation results show that the techniques significantly enhance secrecy rates, especially in NLoS-rich environments where traditional mmWave security solutions break down.",
+    "pdf_link": "https://arxiv.org/abs/2010.00733",
+    "image": "data/paper_images/small_images/mmwave_security.jpeg"
+  },
+  {
+    "title": "Xilinx RF-SoC-based Digital Multi-Beam Array Processors for 28/60 GHz Wireless Testbeds",
+    "authors": "Sravan Pulipati, Viduneth Ariyarathna, Aditya Dhananjay, Mohammed E. Eltayeb, Marco Mezzavilla, Josep M. Jornet, Soumyajit Mandal, Shubhendu Bhardwaj, Arjuna Madanayake",
+    "venue": "Moratuwa Engineering Research Conference (MERCon)",
+    "year": "2020",
+    "abstract": "This work presents fully-digital multi-beam array processors for 28 GHz and 60 GHz wireless testbeds using Xilinx RF-SoC technology. The authors develop wideband real-time beamforming platforms that integrate high-speed ADC/DAC converters, mmWave transceivers, and FPGA-based DSP to generate multiple simultaneous beams. Demonstrations include a 28 GHz lens–FPA receiver and a 60 GHz four-channel digital transceiver capable of O(1) multi-direction synchronization—highlighting the potential of RF-SoC devices as scalable experimental platforms for future 5G/6G mmWave and sub-THz systems.",
+    "pdf_link": "https://ieeexplore.ieee.org/document/9185240",
+    "image": "data/paper_images/small_images/rfsoc_multibeam.jpeg"
+  }
+]

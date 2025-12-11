@@ -2,108 +2,97 @@
     {
         "name": "Dr. Mohammed E. Eltayeb",
         "role": "Professor & Principal Investigator",
-        "photo": "images/prof_mohammed_eltayeb.jpeg",
+        "photo": "prof_mohammed_eltayeb.jpeg",
         "linkedin": "https://www.linkedin.com/in/mohammed-e-eltayeb-63559434/"
     },
     {
         "name": "Parth Ashokbhai Shiroya",
         "role": "Web Developer | ML Research Volunteer",
-        "photo": "images/parth_shiroya.jpeg",
+        "photo": "parth_shiroya.jpeg",
         "linkedin": "https://www.linkedin.com/in/parth-shiroya-9586931b4/"
     },
     {
         "name": "Krishna Aindrila Kar",
         "role": "Graduate Student",
-        "photo": "images/krishna_kar.jpeg",
+        "photo": "krishna_kar.jpeg",
         "linkedin": "https://www.linkedin.com/in/krishna-aindrila-kar-82031b1ab/"
     },
     {
         "name": "Amod Ashtekar",
         "role": "Graduate Student",
-        "photo": "images/amod_ashtekar.jpeg",
+        "photo": "amod_ashtekar.jpeg",
         "linkedin": "https://www.linkedin.com/in/amod-ashtekar/"
     },
-    
     {
         "name": "Dalton Davis",
         "role": "Graduate Student (former)",
-        "photo": "images/dalton_davis.jpeg",
+        "photo": "dalton_davis.jpeg",
         "linkedin": "https://www.linkedin.com/in/daltonrdavis6565/"
     },
     {
         "name": "Swarnagowri Shashidhar",
         "role": "Research Volunteer",
-        "photo": "images/swarnagowri.jpeg",
+        "photo": "swarnagowri.jpeg",
         "linkedin": "https://www.linkedin.com/in/swarna-gowri-s/"
     },
     {
         "name": "Ajinkya Mulik",
         "role": "Graduate Student",
-        "photo": "images/ajinkya_mulik.jpeg",
+        "photo": "ajinkya_mulik.jpeg",
         "linkedin": "https://www.linkedin.com/in/ajinkya-mulik-88713035b/"
     },
     {
         "name": "April Junio",
         "role": "Graduate Student (former)",
-        "photo": "images/april_junio.jpeg",
+        "photo": "april_junio.jpeg",
         "linkedin": "https://www.linkedin.com/in/april-junio-eit-3350494a/"
     },
     {
         "name": "Rafaela Lomboy",
         "role": "Undergraduate Student (former)",
-        "photo": "images/rafaela_lomboy.jpeg",
+        "photo": "rafaela_lomboy.jpeg",
         "linkedin": "https://www.linkedin.com/in/rafaela-lomboy-123320242/"
     },
     {
         "name": "Long (Sam) Ho",
         "role": "Undergraduate Student (former)",
-        "photo": "images/long_sam.jpeg",
+        "photo": "long_sam.jpeg",
         "linkedin": "https://www.linkedin.com/in/long-ho-852234201/"
     },
     {
         "name": "Raj Sai Sohel Bandari ",
         "role": "Research Volunteer",
-        "photo": "images/raj_sai.jpeg",
+        "photo": "raj_sai.jpeg",
         "linkedin": "https://www.linkedin.com/in/raj-sai-sohel-bandari/"
     },
-
-        {
+    {
         "name": "Josue Marroquin",
         "role": "Undergraduate Student",
-        "photo": "images/Josue.jpeg",
+        "photo": "Josue.jpeg",
         "linkedin": "https://www.linkedin.com/in/josue-marroquin-49041a1a4/"
     },
-
-        {
+    {
         "name": "Nan Inzali",
         "role": "Undergraduate Student",
-        "photo": "images/kc.jpeg",
+        "photo": "kc.jpeg",
         "linkedin": "https://www.linkedin.com/in/nan-inzali-1815bb211/"
     },
-
-        {
+    {
         "name": "Campbell Freeman",
         "role": "Undergraduate Student",
-        "photo": "images/campbell.jpeg",
+        "photo": "campbell.jpeg",
         "linkedin": "https://www.linkedin.com/in/campbell-freeman/"
     },
-
-
-        {
+    {
         "name": "David-Robert Popescu",
         "role": "Graduate Student",
-        "photo": "images/david.jpeg",
+        "photo": "david.jpeg",
         "linkedin": "https://www.linkedin.com/in/david-robert-popescu-9875812b7/"
     },
-
-
-
-            {
+    {
         "name": "Omar Ibrahim",
         "role": "Research Volunteer",
-        "photo": "images/omar.jpeg",
+        "photo": "omar.jpeg",
         "linkedin": "https://www.linkedin.com/in/omar-ibrahim-06418885/"
     }
-
-    
 ]
